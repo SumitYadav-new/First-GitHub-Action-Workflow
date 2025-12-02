@@ -3,11 +3,12 @@ name: Sumit
 on:
   push:
      branches: [ main ]
+     
 jobs:
-     demo:
-runs-on: ubuntu-latest
-
-
+  demo:
+    runs-on: ubuntu-latest
+ 
+ 
     steps:
-    - name: Greetings
-      run: echo "Hello From WorkFlow"
+     - name: Greetings
+       run: echo "Hello From WorkFlow"
